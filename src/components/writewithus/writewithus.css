@@ -1,0 +1,46 @@
+.news-entry{
+    text-align:center;
+    padding: 20px;
+}
+.newsEntry-title{
+    font-size :18pt ;
+    margin:1rem;
+    font-family: Sofia;
+}
+.newsEntry-text{
+    font-size :18pt ;
+    margin:1rem;
+    font-family: Sofia;
+}
+.newsEntry-img{
+    font-size :18pt;
+    font-family: Sofia;
+    margin:1rem;
+    padding-right:8rem;
+    
+}
+.newsEntry-btn{
+    font-size :15pt ;
+    background-color: rgb(206, 206, 242);
+    margin:1rem;
+    border: solid;
+    border-color: rgb(125, 125, 231);
+    border-radius: 10px;
+    font-family: Sofia;   
+}
+.newsEntry-input-title{
+    height: 2.5rem;
+    width: 25rem;
+    border:none;
+    background-color: rgb(208, 208, 243);
+    border-radius: 10px;
+}
+textarea{
+    height: 5rem;
+    width: 25rem;
+    border:none;
+    background-color: rgb(208, 208, 243);
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,13 @@
+.about-page{
+    text-align: center;
+     padding: 20px;
+    }
+.about-title{
+     font-family: Sofia;
+     font-size:50px;
+     letter-spacing:4px;
+}
+.about-text{ 
+    max-width: 600px; 
+    margin: 0 auto;
+ }

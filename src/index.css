@@ -40,6 +40,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+input[type="text"]::placeholder {
+             
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -86,10 +91,13 @@ li{
   color: rgb(76, 76, 186);
   display:inline-flex;
   gap: 15px;
-  margin-top:10px ;
+  margin-top:3rem ;
+  font-size: 1.3rem;
   text-transform: capitalize;
   font-family: "Neucha ";
 }
+
+
 .list-title{
   font-family: "Neucha";
   color: rgb(76, 76, 186);
@@ -97,10 +105,17 @@ li{
 }
 .filter-btn{
   font-family: "Sofia", sans-serif;
+  height:2.8rem;
+
+}
+.header{
+  height:5rem;
+  background-color: #c59d5f;
 }
 .navbar-items{ 
    width: 100%;
-  background-color: #c59d5f;
+  
+ 
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -115,8 +130,42 @@ li{
   gap:1rem;
   color: rgb(76, 76, 186) ;
 }
+.catagories-list{
+  font-size:0rem ;
+}
+.search{
+  height: 15px; 
+  margin-left: 67%;
+  margin-bottom: 4rem;
+  padding-top: 40px;
+}
+.search__input{
+  height: 37px;
+  width:300px;
+  margin-top: -8rem;
+  margin-right: 3px;
+  margin-left: 5rem;
+  border-radius: 12px;
+  align-content: center;
+}
+.search-icon{
+  color: rgb(9, 123, 230);
+  position:relative;
+  left:22rem;
+  top: -2rem;
+  z-index:999;
+  background-color: transparent;
+  border-color: transparent;
+}
+select {
+  display: none;
+}
 
 @media screen and (min-width: 700px) {
+
+  nav ul { display: none; }
+  nav select { display: inline-block; }
+
   .navbar-items{ 
     width: auto;}
   h1 {
@@ -257,9 +306,11 @@ li{
     gap: 0 1.25rem;
     max-width: 40rem;
   }
+ 
   
 }
 @media screen and (min-width: 1200px) {
+
   .section-center {
     width: 95vw;
     grid-template-columns: 1fr 1fr;
@@ -267,6 +318,7 @@ li{
   .photo {
     height: 200px;
   }
+  
 }
 
 
